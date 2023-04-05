@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    transform: translate(0,50%);
+    
+}
+
+.esquerdo img {
+    width: 300px;
+    height: 400px;
+    
+}
+
+.direito{
+    width: 300px;
+    height: 390px;
+    margin-top: -30px;   
+    
+}
