@@ -1,21 +1,73 @@
+body{
+    background-color: blanchedalmond;
+}
+
+
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
-    transform: translate(0,50%);
+    transform: translate(0,60%);
     
 }
 
 .esquerdo img {
     width: 300px;
-    height: 400px;
-    
+    height: 407px;
+   
 }
+
+
 
 .direito{
     width: 300px;
-    height: 390px;
-    margin-top: -30px;   
+    height: 407px;
+    background-color: white;
+    padding-left: 30px;
+    transform: translate(0, -1);
+    
+}
+
+.direito h4{
+    color:gray ;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.direito h1{
+    color: black;
+    font-family: 'Fraunces', serif;
+}
+
+.direito p{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.direito h2{
+    color: rgb(61, 112, 61);
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    
+    
+}
+
+.direito h2, h3{
+    display: inline;
+    padding-top: 10px;    
+}
+
+.direito h3{
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    padding-left: 20px;
+    font-size: 15px;
+    
+}
+
+.direito button{
+    transform: translate(75px, 40px);
     
 }
