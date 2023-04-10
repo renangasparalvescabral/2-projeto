@@ -1,5 +1,6 @@
 body{
     background-color: blanchedalmond;
+    
 }
 
 
@@ -47,27 +48,36 @@ body{
 }
 
 .direito h2{
-    color: rgb(61, 112, 61);
+    color: #3d703d;
     font-family: 'Fraunces', serif;
     font-size: 40px;
-    
     
 }
 
 .direito h2, h3{
     display: inline;
-    padding-top: 10px;    
+       
 }
 
 .direito h3{
     font-family: 'Montserrat', sans-serif;
     color: gray;
-    padding-left: 20px;
+    padding-left: 15px;
     font-size: 15px;
     
 }
 
 .direito button{
-    transform: translate(75px, 40px);
-    
+    transform: translate(20px, 30px);
+    background-color: rgb(61, 112, 61);
+    color:white;
+    padding: 10px 65px 10px 65px;
+    border-radius: 10px;
+    margin: none;
+    text-shadow: none;
+    border-width: 0px;
+}
+
+.direito img{
+    transform: translate(2px, 2px);
 }
